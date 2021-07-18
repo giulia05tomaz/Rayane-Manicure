@@ -16,7 +16,7 @@ nav,ul{
 a{
     text-decoration: none;
     cursor: pointer;
-    opacity: 0.9;
+    
 }
 
 a:hover{
@@ -40,12 +40,21 @@ header{
 }   
 
 header img{
-    width: 80px;
+    width: 70px;
 }
 
 header nav{
     display: flex;
+    
 }
+
+header{
+    display: flex;
+    position: fixed;
+    height: 70px;
+}
+
+
 
 header li a{
     color: #fff;
@@ -66,14 +75,22 @@ header li:last-child{
     margin-right: 0;
 }
 
+
 @media (max-width: 700px){
     header {
-        height: 160px;
+        height: 120px;
         flex-direction: column;
     }
 
     header img{
-        margin-bottom: 15px;
+        margin-top: -10px;
+        
+    }
+
+    header li {
+        font-size: 14px;
+        margin-top: -15px;
+        margin-left: 5px;
     }
 }
 
@@ -120,7 +137,7 @@ header li:last-child{
     }
 }
 
-/*CONHEÇA O HOTEL*/
+/*SOBRE MIM*/
 
 .conheca-meu-trabalho{
     background-color: #1d1c1c;
@@ -349,11 +366,12 @@ footer ul li:last-child{
 }
 
 footer ul li a{
-    color: #174f42;
+    color: #fe92da;
     font-size: 2rem;
 }
 
 footer p{
     text-align: center;
-    color: #174f42;
+    color: #fe92da;
 }
+
